@@ -1,6 +1,6 @@
 import os
 
-class Config(object):
+class Config.py(object):
     # get a token from @BotFather
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7213936135:AAFxNGaKAtmuaMMrdeC_7Vlfie6QyGeWZaY")
     # The Telegram API things
@@ -24,9 +24,9 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "JustCalo"))
     SESSION_NAME = "UPLOADER-X-BOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres:.....@katydid-prontamente-soddisfatta.data-1.euc1.tembo.io:5432/postgres")
     MAX_RESULTS = "50"
     PREMIUM_USER = os.environ.get("PREMIUM_USER")
